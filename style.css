@@ -30,7 +30,7 @@ body {
   border: 1px solid black;
   box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.5);
   width: 530px;
-  height: 750px;
+  height: 650px;
   position: relative;
   background: rgba(255, 255, 255, 0.5);
   user-select: none;
@@ -52,7 +52,7 @@ body {
 
 .card {
   margin: 5px auto 10px;
-  height: 600px;
+  height: 500px;
 }
 
 /* Splash Page -------------------- */
@@ -68,7 +68,7 @@ input[type="radio"] {
 
 .selection-container {
   position: relative;
-  top: 5px;
+  top: 35px;
 }
 
 .radio-container {
@@ -113,7 +113,7 @@ label {
 }
 
 .selection-footer {
-  top: 34px;
+  top: 74px;
 }
 
 /* Game Page -------------------------- */
@@ -128,7 +128,7 @@ label {
 }
 
 .item-container {
-  height: 552px;
+  height: 452px;
   overflow-y: scroll;
   position: relative;
   -ms-overflow-style: none;
@@ -173,7 +173,7 @@ label {
 }
 
 .item-footer {
-  top: 1px;
+  top: 5px;
 }
 
 button {
@@ -226,7 +226,7 @@ button:active {
 
 /* Score Page ------------------------- */
 .score-container {
-  height: 600px;
+  height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
